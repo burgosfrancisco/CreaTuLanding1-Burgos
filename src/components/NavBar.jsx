@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import CartWidget from './CartWidget';
 
 const NavBar = () => {
@@ -16,11 +17,22 @@ const NavBar = () => {
       zIndex: 1000,
     }}>
       <h2 style={{ color: '#6c63ff', margin: 0 }}>MiTienda</h2>
+
       <ul style={{ listStyle: 'none', display: 'flex', gap: '2rem', margin: 0 }}>
-        <li><a href="#" style={{ textDecoration: 'none', color: '#333' }}>Inicio</a></li>
-        <li><a href="#" style={{ textDecoration: 'none', color: '#333' }}>Productos</a></li>
-        <li><a href="#" style={{ textDecoration: 'none', color: '#333' }}>Contacto</a></li>
+        <li>
+          <Link to="/" style={{ textDecoration: 'none', color: '#333' }}>Inicio</Link>
+        </li>
+        <li>
+          <Link to="/categoria/ropa" style={{ textDecoration: 'none', color: '#333' }}>Ropa</Link>
+        </li>
+        <li>
+          <Link to="/categoria/calzado" style={{ textDecoration: 'none', color: '#333' }}>Calzado</Link>
+        </li>
+        <li>
+          <Link to="/categoria/accesorios" style={{ textDecoration: 'none', color: '#333' }}>Accesorios</Link>
+        </li>
       </ul>
+
       <CartWidget />
     </nav>
   );

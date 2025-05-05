@@ -42,6 +42,8 @@
 }
 body {
   margin: 0;
+  padding-top: 100px; /* deja espacio para la navbar fija */
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background-color: #1e1e1e;
 }
+
