@@ -23,4 +23,4 @@ const productos = [
       setTimeout(() => resolve(productos.filter(p => p.categoria === categoriaId)), 1000);
     });
   };
-  
+  //
