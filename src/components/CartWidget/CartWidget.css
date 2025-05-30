@@ -1,0 +1,24 @@
+.carrito{
+    height: 2rem;
+}
+.containerCart {
+    display: flex;
+    align-items: center;
+  }
+  
+  .cart-link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+  }
+  
+  .carrito {
+    width: 24px;
+    height: 24px;
+    margin-right: 4px;
+  }
+  
+  .cart-count {
+    font-weight: bold;
+    color: #3b3b3b;
+  }

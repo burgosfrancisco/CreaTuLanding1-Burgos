@@ -1,0 +1,50 @@
+.item-detail {
+    max-width: 500px;
+    margin: 2rem auto;
+    padding: 2rem;
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    background-color: #fff8f0;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .item-detail h2 {
+    color: #7b3f00;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .item-detail p {
+    font-size: 1.2rem;
+    margin: 0.5rem 0;
+  }
+  
+  .item-detail label {
+    display: block;
+    margin-top: 1rem;
+    font-weight: bold;
+  }
+  
+  .item-detail input[type="number"] {
+    width: 60px;
+    padding: 0.3rem;
+    margin-right: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+  }
+  
+  .item-detail button {
+    padding: 0.5rem 1rem;
+    background-color: #ffb347;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+  }
+  
+  .item-detail button:hover {
+    background-color: #ff9800;
+  }
+  
